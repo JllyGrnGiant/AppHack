@@ -43,3 +43,25 @@ C:\Users\admin\Desktop\New folder\KinectWpfViewers\obj\Debug\Microsoft.Samples.K
 C:\Users\admin\Desktop\New folder\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.csproj.GenerateResource.Cache
 C:\Users\admin\Desktop\New folder\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.dll
 C:\Users\admin\Desktop\New folder\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.pdb
+C:\Users\admin\Desktop\AppHack\KinectWpfViewers\bin\Debug\Microsoft.Samples.Kinect.WpfViewers.dll
+C:\Users\admin\Desktop\AppHack\KinectWpfViewers\bin\Debug\Microsoft.Samples.Kinect.WpfViewers.pdb
+C:\Users\admin\Desktop\AppHack\KinectWpfViewers\obj\Debug\KinectAudioViewer.g.cs
+C:\Users\admin\Desktop\AppHack\KinectWpfViewers\obj\Debug\KinectDepthViewer.g.cs
+C:\Users\admin\Desktop\AppHack\KinectWpfViewers\obj\Debug\KinectColorViewer.g.cs
+C:\Users\admin\Desktop\AppHack\KinectWpfViewers\obj\Debug\KinectSettings.g.cs
+C:\Users\admin\Desktop\AppHack\KinectWpfViewers\obj\Debug\KinectSkeletonViewer.g.cs
+C:\Users\admin\Desktop\AppHack\KinectWpfViewers\obj\Debug\KinectVoiceCommandViewer.g.cs
+C:\Users\admin\Desktop\AppHack\KinectWpfViewers\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\admin\Desktop\AppHack\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers_MarkupCompile.cache
+C:\Users\admin\Desktop\AppHack\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers_MarkupCompile.lref
+C:\Users\admin\Desktop\AppHack\KinectWpfViewers\obj\Debug\KinectAudioViewer.baml
+C:\Users\admin\Desktop\AppHack\KinectWpfViewers\obj\Debug\KinectDepthViewer.baml
+C:\Users\admin\Desktop\AppHack\KinectWpfViewers\obj\Debug\KinectColorViewer.baml
+C:\Users\admin\Desktop\AppHack\KinectWpfViewers\obj\Debug\KinectSettings.baml
+C:\Users\admin\Desktop\AppHack\KinectWpfViewers\obj\Debug\KinectSkeletonViewer.baml
+C:\Users\admin\Desktop\AppHack\KinectWpfViewers\obj\Debug\KinectVoiceCommandViewer.baml
+C:\Users\admin\Desktop\AppHack\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.g.resources
+C:\Users\admin\Desktop\AppHack\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.Properties.Resources.resources
+C:\Users\admin\Desktop\AppHack\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.csproj.GenerateResource.Cache
+C:\Users\admin\Desktop\AppHack\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.dll
+C:\Users\admin\Desktop\AppHack\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.pdb

@@ -153,6 +153,11 @@ namespace ShapeGame
             myGameThread.Start();
 
             FlyingText.NewFlyingText(this.screenRect.Width / 30, new Point(this.screenRect.Width / 2, this.screenRect.Height / 2), "Shapes!");
+
+            myFallingThings.DropNewThing(PolyType.Circle, dropSize, System.Windows.Media.Color.FromRgb(0, 0, 0), StoredValueType.Addition);
+            myFallingThings.DropNewThing(PolyType.Circle, dropSize, System.Windows.Media.Color.FromRgb(0, 0, 0), StoredValueType.Subtraction);
+            myFallingThings.DropNewThing(PolyType.Circle, dropSize, System.Windows.Media.Color.FromRgb(0, 0, 0), StoredValueType.Multiplication);
+            myFallingThings.DropNewThing(PolyType.Circle, dropSize, System.Windows.Media.Color.FromRgb(0, 0, 0), StoredValueType.Division);
         }
 
         private void WindowClosing(object sender, CancelEventArgs e)
@@ -483,7 +488,26 @@ namespace ShapeGame
                     }
 
                     foreach (FallingThings.Thing thing in pair.Value.TouchedShapes)
-                        bannerText += " " + thing.Value.ToString();
+                    {
+                        switch (thing.ValueType)
+                        {
+                            case StoredValueType.Number:
+                                bannerText += " " + thing.Value.ToString();
+                                break;
+                            case StoredValueType.Addition:
+                                bannerText += " +";
+                                break;
+                            case StoredValueType.Subtraction:
+                                bannerText += " -";
+                                break;
+                            case StoredValueType.Multiplication:
+                                bannerText += " x";
+                                break;
+                            case StoredValueType.Division:
+                                bannerText += " /";
+                                break;
+                        }
+                    }
                 }
 
                 BannerText.NewBanner(bannerText, new Rect(new Point(0, 0), new Point(200, 200)), false, System.Windows.Media.Color.FromRgb(255, 255, 255));

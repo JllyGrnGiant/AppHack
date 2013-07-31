@@ -500,7 +500,7 @@ namespace ShapeGame
             FlyingText.NewFlyingText(this.sceneRect.Width / 300, center, "+" + points);
         }
 
-        private void DropNewThing(PolyType newShape, double newSize, System.Windows.Media.Color newColor, StoredValueType newValueType, int newValue = 0)
+        public void DropNewThing(PolyType newShape, double newSize, System.Windows.Media.Color newColor, StoredValueType newValueType, int newValue = 0)
         {
             // Only drop within the center "square" area 
             double dropWidth = this.sceneRect.Bottom - this.sceneRect.Top;
